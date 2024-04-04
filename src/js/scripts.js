@@ -13,19 +13,19 @@ console.log(myAge);
 
 //Practical JavaScript
 
-const toggledparagraph = document.querySelector('.show');
-console.log(toggledparagraph);
+const toggledParagraph = document.querySelector('.show');
+console.log(toggledParagraph);
 
 // function
 
-function toggleparagraph() {
-    toggledparagraph.classList.toggle("hide");
-    toggledparagraph.classList.toggle("show");
+function toggleParagraph() {
+    toggledParagraph.classList.toggle("hide");
+    toggledParagraph.classList.toggle("show");
     console.log("My toggle function");
-    console.log(toggledparagraph);
+    console.log(toggledParagraph);
 }
 
 //Find the paragraph and toggle the button when we click it
 const toggleButton = document.querySelector('#toggle-control');
 
-toggleButton.addEventListener('click', toggleparagraph);
+toggleButton.addEventListener('click', toggleParagraph);
