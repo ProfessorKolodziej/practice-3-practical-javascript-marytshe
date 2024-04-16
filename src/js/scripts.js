@@ -20,4 +20,7 @@ function toggleParagraph() {
 //Find the paragraph and toggle the button when we click it
 const toggleButton = document.querySelector('#toggle-control');
 
+
+
+
 toggleButton.addEventListener('click', toggleParagraph);
